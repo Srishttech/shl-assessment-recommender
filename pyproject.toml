@@ -1,0 +1,16 @@
+[project]
+name = "shl-assessment-recommender"
+version = "0.1.0"
+description = "assessment recommender api"
+readme = "README.md"
+requires-python = ">=3.12"
+dependencies = [
+    "fastapi",
+    "uvicorn",
+    "python-dotenv",
+    "google-genai",
+    "sentence-transformers",
+    "faiss-cpu",
+    "numpy",
+    "pydantic"
+]
